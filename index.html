@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
     <title>MapIM</title>
 </head>
@@ -14,8 +15,8 @@
     <div class="box">
         <img class="logo" src="img/ufrrj-logo.png" alt="">
         <form id="form" action="mapa.html">
-            <input id="sala1" type="text" name="sala" placeholder="Sala de aula, secretaria...">
-            <input class="submit" type="submit">
+            <input class="search" id="search" type="text" name="search" placeholder="Sala de aula, professor...">
+            <input id="submit-button" class="submit" type="submit">
             <img class="lupa" src="img/lupa.png" alt="">
         </form>
         <a href="mapa.html">
@@ -23,5 +24,48 @@
         </a>
     </div>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script>
+    const form = document.getElementById('form')
+
+    const completes = [
+        {
+            'id': '301-A',
+            'andar': 3
+        },
+        {
+            'id': '101-I',
+            'andar': 1
+        },
+        {
+            'id': 'AUDITORIO-PRIMEIRO',
+            'andar': 1
+        },
+        {
+            'id': 'AUDITORIO-POS',
+            'andar': 4
+        }
+    ]
+
+    form.addEventListener('submit', (event) => {
+        event.preventDefault()
+
+        const { value } = document.getElementById('search')
+        const [sala] = completes.filter(sala => sala.id === value)
+
+        if (!sala) {
+            alert('Sala não existe, tente outra')
+            return
+        }
+
+        window.location.href = `mapa.html?sala=${sala.id}&andar=${sala.andar}`;
+    })
+
+    $("#search").autocomplete({
+        source: completes.map(sala => sala.id)
+    })
+</script>
 
 </html>
