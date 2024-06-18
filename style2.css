@@ -1,0 +1,97 @@
+html{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+html, body{
+    display:inline;
+}
+
+.body{
+    width: 100%;
+    height: 100%;
+
+}
+
+.mapdiv{
+
+    width: 100in;
+    height: 95in;
+}
+
+.mapdiv tspan:hover{
+    cursor: pointer;
+}
+
+.salaCerta {
+    fill: green;
+}
+
+
+
+#layer6 path{
+    fill: #ffffff;
+}
+#layer6 rect{
+    fill: #ffffff;
+}
+#layer6 path:active{
+    fill:rgb(1, 99, 16);
+}
+#layer6 rect:active{
+    fill:rgb(1, 99, 16);
+}
+
+#layer5 path{
+    fill: #ffffff;
+}
+#layer5 rect{
+    fill: #ffffff;
+}
+#layer5 path:active{
+    fill:rgb(1, 99, 16);
+}
+#layer5 rect:active{
+    fill:rgb(1, 99, 16);
+}
+
+#layer7 path{
+    fill: #ffffff;
+}
+#layer7 rect{
+    fill: #ffffff;
+}
+#layer7 path:active{
+    fill:rgb(1, 99, 16);
+}
+#layer7 rect:active{
+    fill:rgb(1, 99, 16);
+}
+
+#layer8 path{
+    fill: #ffffff;
+}
+#layer8 rect{
+    fill: #ffffff;
+}
+#layer8 path:active{
+    fill:rgb(1, 99, 16);
+}
+#layer8 rect:active{
+    fill:rgb(1, 99, 16);
+}
+
+#layer10 path{
+    fill: #ffffff;
+}
+#layer10 rect{
+    fill: #ffffff;
+}
+#layer10 path:active{
+    fill:rgb(1, 99, 16);
+}
+#layer10 rect:active{
+    fill:rgb(1, 99, 16);
+}
+

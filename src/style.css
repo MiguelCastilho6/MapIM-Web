@@ -1,0 +1,105 @@
+html{
+    background-image: url(img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    backface-visibility:hidden;
+    background-color: #F5F5F5;
+    background-position:center;
+    resize: horizontal;
+
+
+}
+html{
+   
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box{
+    width: 300px;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    margin-bottom:70px;
+    filter: drop-shadow(-1px 5px 4px rgba(37, 37, 37, 0.267));
+}
+.submit{
+    background-color: #ffffff;
+    padding: 0px;
+    align-content: center;
+    justify-content: start;
+    width: 40px;
+    height: 39px;
+    border-width: 2px;
+    border-color: #E0E0E0;
+    border-style: solid;
+    border-left: 0px;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+.submit:hover{
+    background-color: #F5F5F5;
+}
+
+.search{
+    background-color: #ffffff;
+
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    border-width: 2px;
+    border-color: #E0E0E0;
+    border-style: solid;
+    border-right-width: 0px;
+
+    font-size:16x;
+    font-weight: 500 ;
+
+    padding: 0px;
+    padding-left: 5px;
+    height: 35px;
+    width: 250px;
+}
+
+
+.lupa{
+    margin-right: 8px;
+    width: 30px;
+    height: 30px;
+}
+.lupa:hover{
+    cursor: pointer;
+    background-color: #F5F5F5;
+}
+.navegar{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #416AB5;
+
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #33538a;
+    border-style: solid;
+    height: 40px;
+    width: 130px;
+    
+    color: #ffffff;
+
+}
+
+.navegar:hover{
+    cursor: pointer;
+    filter: drop-shadow(0px 2px 4px rgba(37, 37, 37, 0.267));
+}
+.footer{
+    flex: 10px;
+}
