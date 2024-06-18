@@ -141,21 +141,630 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
-     inkscape:zoom="0.32"
-     inkscape:cx="698.4375"
-     inkscape:cy="1914.0625"
+     inkscape:zoom="0.22627417"
+     inkscape:cx="731.41358"
+     inkscape:cy="1995.3669"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-height="1009"
      inkscape:window-x="1358"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g1" />
+     inkscape:current-layer="layer10" />
   <g
      inkscape:groupmode="layer"
      inkscape:label="Image"
      id="g1"
      style="display:none"
      sodipodi:insensitive="true" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer10"
+     inkscape:label="ESCADAS">
+    <rect
+       style="fill:none"
+       id="Escada-I"
+       width="132.8125"
+       height="98.4375"
+       x="836.71875"
+       y="357.8125"
+       inkscape:label="Escada-I" />
+    <rect
+       style="fill:none"
+       id="Escada-M"
+       width="132.8125"
+       height="96.875"
+       x="1516.4062"
+       y="358.59375"
+       inkscape:label="Escada-M" />
+    <rect
+       style="fill:none"
+       id="Escada-A"
+       width="132.03125"
+       height="96.09375"
+       x="1517.9688"
+       y="2767.1875"
+       inkscape:label="Escada-A" />
+    <rect
+       style="fill:none"
+       id="Escada-B"
+       width="130.92525"
+       height="96.12233"
+       x="836.92719"
+       y="2767.6602"
+       inkscape:label="Escada-B" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="RAMPA">
+    <rect
+       style="fill:none;stroke-width:1.00062"
+       id="rect232"
+       width="625.89996"
+       height="196.66409"
+       x="932.49707"
+       y="1513.6505" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="ADM-3">
+    <path
+       style="fill:none"
+       d="m 1505.0781,1965.625 h -91.9922 v -111.5234 h 140.2344 v 40.2343 h -48.0469 v 71.4844"
+       id="Banheiro-Feminino-A"
+       inkscape:label="BanFem" />
+    <rect
+       style="fill:none"
+       id="Copa-A"
+       width="44.726562"
+       height="68.554688"
+       x="1508.0078"
+       y="1897.2656"
+       inkscape:label="Copa" />
+    <rect
+       style="fill:none"
+       id="302-A"
+       width="140.59271"
+       height="196.94029"
+       x="1412.8325"
+       y="1968.8505"
+       inkscape:label="Sala 302" />
+    <rect
+       style="fill:none"
+       id="304-A"
+       width="140.86893"
+       height="196.94029"
+       x="1412.8325"
+       y="2168.0005"
+       inkscape:label="Sala 304" />
+    <rect
+       style="fill:none"
+       id="306-A"
+       width="140.59271"
+       height="83.140289"
+       x="1412.8325"
+       y="2367.7029"
+       inkscape:label="Sala 306" />
+    <rect
+       style="fill:none"
+       id="308-A"
+       width="141.14514"
+       height="82.864075"
+       x="1412.5563"
+       y="2453.3291"
+       inkscape:label="Sala 308" />
+    <rect
+       style="fill:none"
+       id="PROAD"
+       width="98.332039"
+       height="75.682617"
+       x="1313.1194"
+       y="2537.8503"
+       inkscape:label="PROAD" />
+    <rect
+       style="fill:none"
+       id="GabiDireVice-A1"
+       width="98.332039"
+       height="149.15533"
+       x="1313.1194"
+       y="2615.7427"
+       inkscape:label="Gabinete Diretor e Vice-Diretor" />
+    <rect
+       style="fill:none"
+       id="PROAES"
+       width="101.09417"
+       height="72.367958"
+       x="1452.3311"
+       y="2692.53"
+       inkscape:label="PROAES" />
+    <rect
+       style="fill:none"
+       id="Arquivo"
+       width="141.42133"
+       height="152.46989"
+       x="1413.1088"
+       y="2538.4028"
+       inkscape:label="ARQUIVO" />
+    <path
+       style="fill:none"
+       d="m 1753.5156,1966.2109 h -91.9922 v -33.789 h -48.4375 v -78.125 h 140.4297 v 112.1094"
+       id="Banheiro-Masculino-A"
+       inkscape:label="BanMas" />
+    <rect
+       style="fill:none"
+       id="Rack-A"
+       width="45.3125"
+       height="31.445312"
+       x="1612.8906"
+       y="1934.7656"
+       inkscape:label="Rack" />
+    <rect
+       style="fill:none"
+       id="301-A"
+       width="141.40625"
+       height="196.48438"
+       x="1612.5"
+       y="1969.5312"
+       inkscape:label="Sala 301" />
+    <rect
+       style="fill:none"
+       id="303-A"
+       width="141.79688"
+       height="196.875"
+       x="1612.1094"
+       y="2168.75"
+       inkscape:label="Sala 303" />
+    <rect
+       style="fill:none"
+       id="305-A"
+       width="141.40625"
+       height="83.59375"
+       x="1612.5"
+       y="2367.9688"
+       inkscape:label="Sala 305" />
+    <rect
+       style="fill:none"
+       id="307-A"
+       width="141.79688"
+       height="83.203125"
+       x="1612.1094"
+       y="2453.5156"
+       inkscape:label="Sala 307" />
+    <rect
+       style="fill:none"
+       id="311-A"
+       width="101.09417"
+       height="74.577667"
+       x="1611.9825"
+       y="2690.8728"
+       inkscape:label="Sala 311" />
+    <rect
+       style="fill:none"
+       id="GabiDireVice-A2"
+       width="98.88446"
+       height="150.26019"
+       x="1755.6135"
+       y="2615.1902"
+       inkscape:label="Gabinete Diretor e Vice-Diretor" />
+    <rect
+       style="fill:none"
+       id="SAC"
+       width="96.67469"
+       height="74.025276"
+       x="1756.7184"
+       y="2538.9551"
+       inkscape:label="SAC" />
+    <rect
+       style="fill:none"
+       id="SPEAS"
+       width="140.3165"
+       height="151.91747"
+       x="1612.5349"
+       y="2538.9553"
+       inkscape:label="SPEAS" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="BIBLI_3">
+    <path
+       style="fill:none"
+       d="m 823.63281,1967.3828 h -92.1875 v -111.7187 h 140.03907 v 40.2343 H 823.4375 v 72.0704"
+       id="Banheiro-Feminino-B"
+       inkscape:label="BanFem" />
+    <rect
+       style="fill:none"
+       id="Copa-B"
+       width="45.022816"
+       height="68.777184"
+       x="826.43103"
+       y="1898.6921"
+       inkscape:label="Copa" />
+    <rect
+       style="fill:none"
+       id="302-B"
+       width="141.69757"
+       height="197.76892"
+       x="730.58496"
+       y="1969.4028"
+       inkscape:label="Sala 302" />
+    <rect
+       style="fill:none"
+       id="304-B"
+       width="141.42136"
+       height="196.94029"
+       x="730.58496"
+       y="2169.3816"
+       inkscape:label="Sala 304" />
+    <rect
+       style="fill:none"
+       id="306-B"
+       width="140.86893"
+       height="83.968933"
+       x="731.13739"
+       y="2368.5315"
+       inkscape:label="Sala 306" />
+    <rect
+       style="fill:none"
+       id="308-B"
+       width="141.69757"
+       height="82.864075"
+       x="730.58496"
+       y="2454.9863"
+       inkscape:label="Sala 308" />
+    <path
+       style="fill:none"
+       d="m 825.39063,2766.0156 v -89.8437 h 48.04687 v -137.5 H 630.85938 v 227.7344 h 194.92187"
+       id="Biblioteca-1" />
+    <path
+       style="fill:none"
+       d="m 931.44531,1902.1484 v -47.0703 h 141.01559 v 113.2813 h -92.96871 v -34.5703 h -48.4375 v -32.0313"
+       id="Banheiro-Masculino-B"
+       inkscape:label="BanMas" />
+    <rect
+       style="fill:none"
+       id="Rack-B"
+       width="45.214844"
+       height="31.054688"
+       x="931.54297"
+       y="1936.4258"
+       inkscape:label="Rack" />
+    <rect
+       style="fill:none"
+       id="301-B"
+       width="141.69757"
+       height="196.94029"
+       x="930.5636"
+       y="1970.5077"
+       inkscape:label="Sala 301" />
+    <rect
+       style="fill:none"
+       id="303-B"
+       width="141.42136"
+       height="196.66408"
+       x="930.83978"
+       y="2170.2102"
+       inkscape:label="Sala 303" />
+    <rect
+       style="fill:none"
+       id="305-B"
+       width="141.97379"
+       height="83.140289"
+       x="930.28735"
+       y="2369.6365"
+       inkscape:label="Sala 305" />
+    <rect
+       style="fill:none"
+       id="307-B"
+       width="142.25"
+       height="83.140289"
+       x="930.01117"
+       y="2454.9863"
+       inkscape:label="Sala 307" />
+    <rect
+       style="fill:none"
+       id="Biblioteca-2"
+       width="242.57812"
+       height="225.78125"
+       x="929.6875"
+       y="2540.625"
+       inkscape:label="Biblioteca-2" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="MULTI_3">
+    <path
+       style="fill:none"
+       d="m 1413.2813,1257.2266 h 91.6015 v 71.4843 h 48.4375 v 40.2344 h -140.4297 v -111.914"
+       id="Banheiro-Feminino-M"
+       inkscape:label="BanFem" />
+    <rect
+       style="fill:none"
+       id="Copa-M"
+       width="44.824219"
+       height="68.261719"
+       x="1508.3984"
+       y="1257.0312"
+       inkscape:label="Copa" />
+    <rect
+       style="fill:none"
+       id="301-M"
+       width="140.39618"
+       height="196.50807"
+       x="1413.2812"
+       y="1057.4219"
+       inkscape:label="Sala 301" />
+    <rect
+       style="fill:none"
+       id="303-M"
+       width="140.59271"
+       height="197.21651"
+       x="1413.1088"
+       y="857.36694"
+       inkscape:label="Sala 303" />
+    <rect
+       style="fill:none"
+       id="305-M"
+       width="141.42136"
+       height="83.416504"
+       x="1413.1088"
+       y="771.74078"
+       inkscape:label="Sala 305" />
+    <rect
+       style="fill:none"
+       id="307-M"
+       width="142.52621"
+       height="82.311646"
+       x="1412.28"
+       y="686.66699"
+       inkscape:label="Sala 307" />
+    <rect
+       style="fill:none"
+       id="309-M"
+       width="241.13446"
+       height="149.70776"
+       x="1312.8431"
+       y="534.19708"
+       inkscape:label="Sala 309" />
+    <rect
+       style="fill:none"
+       id="Dep-Letras"
+       width="150.53641"
+       height="74.577667"
+       x="1312.8431"
+       y="457.96213"
+       inkscape:label="Departamento Letras" />
+    <rect
+       style="fill:none"
+       id="Prof-Hist"
+       width="88.112099"
+       height="48.613586"
+       x="1465.8655"
+       y="457.96213"
+       inkscape:label="Prof Historia" />
+    <path
+       style="fill:none"
+       d="m 1661.1328,1256.0547 h 92.7735 V 1368.75 h -141.0157 v -78.125 h 48.0469 v -34.5703"
+       id="Banheiro-Masculino-M" />
+    <rect
+       style="fill:none"
+       id="Rack-M"
+       width="45.507812"
+       height="31.835938"
+       x="1612.8906"
+       y="1256.25"
+       inkscape:label="Rack" />
+    <rect
+       style="fill:none"
+       id="302-M"
+       width="141.14514"
+       height="197.76892"
+       x="1612.8112"
+       y="1055.9646"
+       inkscape:label="Sala 302" />
+    <rect
+       style="fill:none"
+       id="304-M"
+       width="141.42136"
+       height="197.21651"
+       x="1612.5349"
+       y="857.09076"
+       inkscape:label="Sala 304" />
+    <rect
+       style="fill:none"
+       id="306-M"
+       width="142.25"
+       height="84.797569"
+       x="1611.7063"
+       y="770.63593"
+       inkscape:label="Sala 306" />
+    <rect
+       style="fill:none"
+       id="308-M"
+       width="141.97379"
+       height="82.864075"
+       x="1611.7063"
+       y="686.39075"
+       inkscape:label="Sala 308" />
+    <rect
+       style="fill:none"
+       id="310-M"
+       width="241.41068"
+       height="149.98398"
+       x="1612.5349"
+       y="533.64465"
+       inkscape:label="Sala 310" />
+    <rect
+       style="fill:none"
+       id="Coord-Letras"
+       width="151.36505"
+       height="74.577667"
+       x="1702.5806"
+       y="457.13348"
+       inkscape:label="Coordenação Letras" />
+    <rect
+       style="fill:none"
+       id="Prof-Eco"
+       width="87.559708"
+       height="49.166019"
+       x="1612.8112"
+       y="457.68591"
+       inkscape:label="Prof Economia" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="INFO_3"
+     style="fill:none">
+    <rect
+       style="fill:none"
+       id="310-1"
+       width="240.30588"
+       height="147.49811"
+       x="931.11603"
+       y="534.74951"
+       inkscape:label="Sala 310" />
+    <rect
+       style="fill:none"
+       id="Proje"
+       width="85.523148"
+       height="72.403732"
+       x="932.53632"
+       y="458.08871"
+       inkscape:label="Proje" />
+    <rect
+       style="fill:none"
+       id="LogiProje"
+       width="149.43153"
+       height="72.644196"
+       x="1021.9903"
+       y="458.10022"
+       inkscape:label="LogiProje" />
+    <rect
+       style="fill:none"
+       id="Mate"
+       width="85.626236"
+       height="72.64418"
+       x="785.96576"
+       y="458.23834"
+       inkscape:label="Mate" />
+    <rect
+       style="fill:none"
+       id="LogiMate"
+       width="149.70779"
+       height="72.782303"
+       x="632.11481"
+       y="458.37643"
+       inkscape:label="LogiMate" />
+    <rect
+       style="fill:none"
+       id="309-I"
+       width="240.30582"
+       height="148.32669"
+       x="632.25293"
+       y="534.47327"
+       inkscape:label="Sala 309" />
+    <rect
+       style="fill:none"
+       id="307-I"
+       width="140.59271"
+       height="81.483009"
+       x="732.24225"
+       y="686.94318"
+       inkscape:label="Sala 307" />
+    <rect
+       style="fill:none"
+       id="305-I"
+       width="141.42133"
+       height="82.311646"
+       x="731.68982"
+       y="772.01697"
+       ry="0.27621359"
+       inkscape:label="Sala 305" />
+    <rect
+       style="fill:none"
+       id="303-I"
+       width="138.93544"
+       height="195.283"
+       x="732.51843"
+       y="858.19562"
+       ry="0.27621359"
+       inkscape:label="Sala 303" />
+    <rect
+       style="fill:none"
+       id="301-I"
+       width="138.93544"
+       height="196.11165"
+       x="732.51843"
+       y="1057.3456"
+       ry="0.27621359"
+       inkscape:label="Sala 301" />
+    <rect
+       style="fill:none"
+       id="Copa-I"
+       width="44.470387"
+       height="67.672325"
+       x="826.98346"
+       y="1257.3242"
+       ry="0.27621359"
+       inkscape:label="Copa" />
+    <rect
+       style="fill:none"
+       id="Rack-I"
+       width="44.746601"
+       height="31.212135"
+       x="931.66846"
+       y="1255.9432"
+       ry="0.27621359"
+       inkscape:label="Rack" />
+    <rect
+       style="fill:none"
+       id="Prof_Mat"
+       width="141.01562"
+       height="81.054688"
+       x="930.85938"
+       y="686.71875"
+       ry="0.27621359"
+       inkscape:label="Sala 308" />
+    <rect
+       style="fill:none"
+       id="Lab_Info"
+       width="140.03906"
+       height="82.226562"
+       x="931.44531"
+       y="771.67969"
+       ry="0.27621359"
+       inkscape:label="Sala 306" />
+    <rect
+       style="fill:none"
+       id="304-I"
+       width="139.45312"
+       height="196.09375"
+       x="932.42188"
+       y="857.8125"
+       ry="0.27621359"
+       inkscape:label="Sala 304" />
+    <rect
+       style="fill:none"
+       id="302-I"
+       width="139.76407"
+       height="195.55922"
+       x="931.94464"
+       y="1057.0695"
+       inkscape:label="Sala 302" />
+    <path
+       style="fill:none"
+       d="m 732.17317,1257.1861 h 91.08143 v 71.6775 h 48.22978 v 39.1052 H 732.22656 v -110.7422"
+       id="Banheiro-Feminino-I"
+       inkscape:label="BanFem" />
+    <path
+       style="fill:none"
+       d="m 980.55823,1256.2194 h 91.70287 v 111.8665 H 932.77328 v -45.8515 h 47.78495 v -3.3145 h -48.06116 v -27.6214 h 48.06116 v -35.0791"
+       id="Banheiro-Masculino-I"
+       inkscape:label="BanMas" />
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer1"
@@ -2987,14 +3596,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';text-align:center;text-anchor:middle;fill:#000000;stroke-width:4.188"
-       x="1549.0057"
-       y="1569.9982"
+       x="1424.5216"
+       y="1566.8258"
        id="text200"
        inkscape:label="text200"><tspan
          sodipodi:role="line"
          id="tspan200"
-         x="1549.0057"
-         y="1569.9982"
+         x="1424.5216"
+         y="1566.8258"
          style="font-size:18.6667px">RAMPA</tspan></text>
     <text
        xml:space="preserve"

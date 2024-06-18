@@ -1,17 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style2.css">
-   
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search)
+
+        const sala = urlParams.get('sala') ?? '101-A'
+        const andar = urlParams.get('andar') ?? 1
+
+        fetch('img/' + andar + '-andar.svg')
+            .then((response) => response.text())
+            .then((data) => {
+                const parser = new DOMParser();
+                const svgContainer = document.getElementById('svg-container')
+                const svg = parser.parseFromString(data, "image/svg+xml").querySelector('svg');
+                svgContainer.appendChild(svg)
+
+                const salaElement = document.getElementById(sala)
+
+                if (!salaElement) {
+                    alert('Não existe')
+                    return;
+                }
+
+                salaElement.style.fill = 'green';
+            })
+    </script>
+
     <title>Mapa</title>
 </head>
+
 <body>
-    <div id="map">
-        <img class= "mapa"src="img/2 ANDAR SVG2.svg" alt="">
-    </div>
-    
+    <div id="svg-container" />
 </body>
 
 </html>
