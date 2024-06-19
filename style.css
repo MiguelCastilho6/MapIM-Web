@@ -33,6 +33,13 @@ html{
     margin-bottom:70px;
     filter: drop-shadow(-1px 5px 4px rgba(37, 37, 37, 0.267));
 }
+.ui-autocomplete {
+    max-height: 150px; /* Defina a altura máxima da lista */
+    overflow-y: auto; /* Permite a rolagem vertical */
+    overflow-x: hidden; /* Esconde a rolagem horizontal */
+    z-index: 1000; /* Certifique-se de que a lista apareça acima de outros elementos */
+}
+
 .submit{
     background-color: #ffffff;
     padding: 0px;
@@ -49,6 +56,9 @@ html{
 }
 .submit:hover{
     background-color: #F5F5F5;
+}
+form{
+    display: flex;
 }
 
 .search{
@@ -67,9 +77,11 @@ html{
     padding: 0px;
     padding-left: 5px;
     height: 35px;
-    width: 250px;
+    width: 245px;
 }
-
+.search:focus{
+    outline:none;
+}
 
 .lupa{
     margin-right: 8px;
@@ -99,7 +111,4 @@ html{
 .navegar:hover{
     cursor: pointer;
     filter: drop-shadow(0px 2px 4px rgba(37, 37, 37, 0.267));
-}
-.footer{
-    flex: 10px;
 }

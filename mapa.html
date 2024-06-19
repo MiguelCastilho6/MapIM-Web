@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style4.css">
 
     <script>
         const urlParams = new URLSearchParams(window.location.search)
@@ -30,12 +30,34 @@
                 salaElement.style.fill = 'green';
             })
     </script>
+   
+    
 
     <title>Mapa</title>
 </head>
 
 <body>
-    <div id="svg-container" >
+    <div class="mapdiv" id="container">
+        <div id="draggable">
+    <div id="svg-container" >        
+    </div>
+</div>
+
+<script>
+    const imagens = document.querySelectorAll('.andar img');
+imagens.forEach(img => {
+    img.addEventListener('dragstart', (event) => {
+        event.preventDefault(); // Impede o comportamento padrão do navegador ao arrastar a imagem
+    });
+});
+
+// Adicione um listener de eventos de dragover ao contêiner de imagens para evitar o comportamento padrão de arrasto e soltar do navegador
+const containerImagens = document.getElementById('draggable');
+containerImagens.addEventListener('dragover', (event) => {
+    event.preventDefault(); // Impede o comportamento padrão do navegador ao arrastar sobre o contêiner
+});    
+    </script>
+    <script src="index.js"></script>
 </body>
 
 </html>

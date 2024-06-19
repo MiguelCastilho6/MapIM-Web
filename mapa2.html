@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="style3.css" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+<title>Mapa IM</title>
+</head>
+<body>
+    <div class="header">
+        <button id="button-1">1</button>
+        <button id="button-2">2</button>
+        <button id="button-3">3</button>
+        <button id="button-pos">Pós</button>
+    </div>
+
+    <div class="mapdiv" id="container">
+        <div id="draggable">
+            <div class="andar" id="pri-andar">
+                <img src="img/1-andar.svg" alt="">
+            </div>
+            <div class="andar" id="seg-andar">
+                <img src="img/2-andar.svg" alt="">
+            </div>
+            <div class="andar" id="ter-andar">
+                <img src="img/3-andar.svg" alt="">
+            </div>
+            <div class="andar" id="pos-andar">
+                <img src="img/POS ANDAR SVG.svg" alt="">
+            </div>
+        </div>
+    </div>
+    
+<script src="index.js"></script>
+<script>
+document.getElementById('button-1').addEventListener('click', () => {
+    showAndar('pri-andar');
+});
+
+document.getElementById('button-2').addEventListener('click', () => {
+    showAndar('seg-andar');
+});
+
+document.getElementById('button-3').addEventListener('click', () => {
+    showAndar('ter-andar');
+});
+
+document.getElementById('button-pos').addEventListener('click', () => {
+    showAndar('pos-andar');
+});
+
+function showAndar(andarId) {
+    const andares = document.querySelectorAll('.andar');
+    andares.forEach(andar => {
+        andar.style.display = 'none';
+    });
+    document.getElementById(andarId).style.display = 'block';}
+
+    document.addEventListener('DOMContentLoaded', () => {
+    showAndar('pri-andar');
+});
+const imagens = document.querySelectorAll('.andar img');
+imagens.forEach(img => {
+    img.addEventListener('dragstart', (event) => {
+        event.preventDefault(); // Impede o comportamento padrão do navegador ao arrastar a imagem
+    });
+});
+
+// Adicione um listener de eventos de dragover ao contêiner de imagens para evitar o comportamento padrão de arrasto e soltar do navegador
+const containerImagens = document.getElementById('draggable');
+containerImagens.addEventListener('dragover', (event) => {
+    event.preventDefault(); // Impede o comportamento padrão do navegador ao arrastar sobre o contêiner
+});
+</script>
+</body>
+</html>
