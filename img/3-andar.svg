@@ -212,11 +212,11 @@
     <path
        style="fill:none"
        d="m 1505.0781,1965.625 h -91.9922 v -111.5234 h 140.2344 v 40.2343 h -48.0469 v 71.4844"
-       id="Banheiro-Feminino-A"
+       id="BANHEIRO FEMININO 3 ANDAR ADM"
        inkscape:label="BanFem" />
     <rect
        style="fill:none"
-       id="Copa-A"
+       id="COPA 3 ANDAR ADM"
        width="44.726562"
        height="68.554688"
        x="1508.0078"
@@ -224,7 +224,7 @@
        inkscape:label="Copa" />
     <rect
        style="fill:none"
-       id="302-A"
+       id="302 ADM"
        width="140.59271"
        height="196.94029"
        x="1412.8325"
@@ -232,7 +232,7 @@
        inkscape:label="Sala 302" />
     <rect
        style="fill:none"
-       id="304-A"
+       id="304 ADM"
        width="140.86893"
        height="196.94029"
        x="1412.8325"
@@ -240,7 +240,7 @@
        inkscape:label="Sala 304" />
     <rect
        style="fill:none"
-       id="306-A"
+       id="306 ADM (SALA DE PROFESSOR TURISMO)"
        width="140.59271"
        height="83.140289"
        x="1412.8325"
@@ -248,7 +248,7 @@
        inkscape:label="Sala 306" />
     <rect
        style="fill:none"
-       id="308-A"
+       id="308 ADM (SALA DE PROFESSOR TURISMO)"
        width="141.14514"
        height="82.864075"
        x="1412.5563"
@@ -264,7 +264,7 @@
        inkscape:label="PROAD" />
     <rect
        style="fill:none"
-       id="GabiDireVice-A1"
+       id="GABINETE DIRETOR E VICE-DIRETOR B"
        width="98.332039"
        height="149.15533"
        x="1313.1194"
@@ -280,7 +280,7 @@
        inkscape:label="PROAES" />
     <rect
        style="fill:none"
-       id="Arquivo"
+       id="DIREÇÃO DO IM ARQUIVO E PROTOCOLO"
        width="141.42133"
        height="152.46989"
        x="1413.1088"
@@ -289,11 +289,11 @@
     <path
        style="fill:none"
        d="m 1753.5156,1966.2109 h -91.9922 v -33.789 h -48.4375 v -78.125 h 140.4297 v 112.1094"
-       id="Banheiro-Masculino-A"
+       id="BANHEIRO MASCULINO 3 ANDAR ADM"
        inkscape:label="BanMas" />
     <rect
        style="fill:none"
-       id="Rack-A"
+       id="RACK TERCEIRO ANDAR ADM"
        width="45.3125"
        height="31.445312"
        x="1612.8906"
@@ -301,7 +301,7 @@
        inkscape:label="Rack" />
     <rect
        style="fill:none"
-       id="301-A"
+       id="301 ADM"
        width="141.40625"
        height="196.48438"
        x="1612.5"
@@ -309,7 +309,7 @@
        inkscape:label="Sala 301" />
     <rect
        style="fill:none"
-       id="303-A"
+       id="303 ADM"
        width="141.79688"
        height="196.875"
        x="1612.1094"
@@ -317,7 +317,7 @@
        inkscape:label="Sala 303" />
     <rect
        style="fill:none"
-       id="305-A"
+       id="305 ADM"
        width="141.40625"
        height="83.59375"
        x="1612.5"
@@ -325,7 +325,7 @@
        inkscape:label="Sala 305" />
     <rect
        style="fill:none"
-       id="307-A"
+       id="307 ADM (SALA DE PROFESSOR TURISMO)"
        width="141.79688"
        height="83.203125"
        x="1612.1094"
@@ -333,7 +333,7 @@
        inkscape:label="Sala 307" />
     <rect
        style="fill:none"
-       id="311-A"
+       id="311 ADM"
        width="101.09417"
        height="74.577667"
        x="1611.9825"
@@ -341,7 +341,7 @@
        inkscape:label="Sala 311" />
     <rect
        style="fill:none"
-       id="GabiDireVice-A2"
+       id="GABINETE DIRETOR E VICE-DIRETOR A"
        width="98.88446"
        height="150.26019"
        x="1755.6135"
@@ -371,11 +371,11 @@
     <path
        style="fill:none"
        d="m 823.63281,1967.3828 h -92.1875 v -111.7187 h 140.03907 v 40.2343 H 823.4375 v 72.0704"
-       id="Banheiro-Feminino-B"
+       id="BANHEIRO FEMININO TERCEIRO ANDAR BIBLI"
        inkscape:label="BanFem" />
     <rect
        style="fill:none"
-       id="Copa-B"
+       id="COPA 3 ANDAR BIBLI"
        width="45.022816"
        height="68.777184"
        x="826.43103"
@@ -383,7 +383,7 @@
        inkscape:label="Copa" />
     <rect
        style="fill:none"
-       id="302-B"
+       id="302 BIBLI"
        width="141.69757"
        height="197.76892"
        x="730.58496"
@@ -391,7 +391,7 @@
        inkscape:label="Sala 302" />
     <rect
        style="fill:none"
-       id="304-B"
+       id="304 BIBLI"
        width="141.42136"
        height="196.94029"
        x="730.58496"
@@ -399,7 +399,7 @@
        inkscape:label="Sala 304" />
     <rect
        style="fill:none"
-       id="306-B"
+       id="306 BIBLI (SALA DE PROFESSOR PEDAGOGIA)"
        width="140.86893"
        height="83.968933"
        x="731.13739"
@@ -407,7 +407,7 @@
        inkscape:label="Sala 306" />
     <rect
        style="fill:none"
-       id="308-B"
+       id="308 BIBLI (SALA DE PROFESSOR PEDAGOGIA)"
        width="141.69757"
        height="82.864075"
        x="730.58496"
@@ -416,15 +416,15 @@
     <path
        style="fill:none"
        d="m 825.39063,2766.0156 v -89.8437 h 48.04687 v -137.5 H 630.85938 v 227.7344 h 194.92187"
-       id="Biblioteca-1" />
+       id="BIBLIOTECA ESTANTERIA LIVROS A" />
     <path
        style="fill:none"
        d="m 931.44531,1902.1484 v -47.0703 h 141.01559 v 113.2813 h -92.96871 v -34.5703 h -48.4375 v -32.0313"
-       id="Banheiro-Masculino-B"
+       id="BANHEIRO MASCULINO 3 ANDAR BIBLI"
        inkscape:label="BanMas" />
     <rect
        style="fill:none"
-       id="Rack-B"
+       id="RACK 3 ANDAR BIBLI"
        width="45.214844"
        height="31.054688"
        x="931.54297"
@@ -432,7 +432,7 @@
        inkscape:label="Rack" />
     <rect
        style="fill:none"
-       id="301-B"
+       id="301 BIBLI"
        width="141.69757"
        height="196.94029"
        x="930.5636"
@@ -440,7 +440,7 @@
        inkscape:label="Sala 301" />
     <rect
        style="fill:none"
-       id="303-B"
+       id="303 BIBLI"
        width="141.42136"
        height="196.66408"
        x="930.83978"
@@ -448,7 +448,7 @@
        inkscape:label="Sala 303" />
     <rect
        style="fill:none"
-       id="305-B"
+       id="305 BIBLI (SALA DE PROFESSOR PEDAGOGIA)"
        width="141.97379"
        height="83.140289"
        x="930.28735"
@@ -456,7 +456,7 @@
        inkscape:label="Sala 305" />
     <rect
        style="fill:none"
-       id="307-B"
+       id="307 BIBLI (SALA DE PROFESSOR PEDAGOGIA)"
        width="142.25"
        height="83.140289"
        x="930.01117"
@@ -464,7 +464,7 @@
        inkscape:label="Sala 307" />
     <rect
        style="fill:none"
-       id="Biblioteca-2"
+       id="BIBLIOTECA ESTANTERIA LIVROS B"
        width="242.57812"
        height="225.78125"
        x="929.6875"
@@ -478,11 +478,11 @@
     <path
        style="fill:none"
        d="m 1413.2813,1257.2266 h 91.6015 v 71.4843 h 48.4375 v 40.2344 h -140.4297 v -111.914"
-       id="Banheiro-Feminino-M"
+       id="BANHEIRO FEMININO 3 ANDAR MULTI"
        inkscape:label="BanFem" />
     <rect
        style="fill:none"
-       id="Copa-M"
+       id="COPA 3 ANDAR MULTI"
        width="44.824219"
        height="68.261719"
        x="1508.3984"
@@ -490,7 +490,7 @@
        inkscape:label="Copa" />
     <rect
        style="fill:none"
-       id="301-M"
+       id="301 MULTI"
        width="140.39618"
        height="196.50807"
        x="1413.2812"
@@ -498,7 +498,7 @@
        inkscape:label="Sala 301" />
     <rect
        style="fill:none"
-       id="303-M"
+       id="303 MULTI"
        width="140.59271"
        height="197.21651"
        x="1413.1088"
@@ -506,7 +506,7 @@
        inkscape:label="Sala 303" />
     <rect
        style="fill:none"
-       id="305-M"
+       id="305 MULTI (SALA DE PROFESSOR ADMINISTRAÇÃO)"
        width="141.42136"
        height="83.416504"
        x="1413.1088"
@@ -514,7 +514,7 @@
        inkscape:label="Sala 305" />
     <rect
        style="fill:none"
-       id="307-M"
+       id="307 MULTI (SALA DE PROFESSOR ADMINISTRAÇÃO)"
        width="142.52621"
        height="82.311646"
        x="1412.28"
@@ -522,7 +522,7 @@
        inkscape:label="Sala 307" />
     <rect
        style="fill:none"
-       id="309-M"
+       id="309 MULTI"
        width="241.13446"
        height="149.70776"
        x="1312.8431"
@@ -530,7 +530,7 @@
        inkscape:label="Sala 309" />
     <rect
        style="fill:none"
-       id="Dep-Letras"
+       id="DEPARTAMENTO LETRAS"
        width="150.53641"
        height="74.577667"
        x="1312.8431"
@@ -538,7 +538,7 @@
        inkscape:label="Departamento Letras" />
     <rect
        style="fill:none"
-       id="Prof-Hist"
+       id="SALA DE PROFESSOR HISTÓRIA (3 ANDAR)"
        width="88.112099"
        height="48.613586"
        x="1465.8655"
@@ -547,10 +547,10 @@
     <path
        style="fill:none"
        d="m 1661.1328,1256.0547 h 92.7735 V 1368.75 h -141.0157 v -78.125 h 48.0469 v -34.5703"
-       id="Banheiro-Masculino-M" />
+       id="BANHEIRO MASCULINO 3 ANDAR MULTI" />
     <rect
        style="fill:none"
-       id="Rack-M"
+       id="RACK 3 ANDAR MULTI"
        width="45.507812"
        height="31.835938"
        x="1612.8906"
@@ -558,7 +558,7 @@
        inkscape:label="Rack" />
     <rect
        style="fill:none"
-       id="302-M"
+       id="302 MULTI"
        width="141.14514"
        height="197.76892"
        x="1612.8112"
@@ -566,7 +566,7 @@
        inkscape:label="Sala 302" />
     <rect
        style="fill:none"
-       id="304-M"
+       id="304 MULTI"
        width="141.42136"
        height="197.21651"
        x="1612.5349"
@@ -574,7 +574,7 @@
        inkscape:label="Sala 304" />
     <rect
        style="fill:none"
-       id="306-M"
+       id="306 MULTI (SALA DE PROFESSOR ADMINISTRAÇÃO)"
        width="142.25"
        height="84.797569"
        x="1611.7063"
@@ -582,7 +582,7 @@
        inkscape:label="Sala 306" />
     <rect
        style="fill:none"
-       id="308-M"
+       id="308 MULTI (SALA DE PROFESSOR ADMINISTRAÇÃO)"
        width="141.97379"
        height="82.864075"
        x="1611.7063"
@@ -590,7 +590,7 @@
        inkscape:label="Sala 308" />
     <rect
        style="fill:none"
-       id="310-M"
+       id="310 MULTI"
        width="241.41068"
        height="149.98398"
        x="1612.5349"
@@ -598,7 +598,7 @@
        inkscape:label="Sala 310" />
     <rect
        style="fill:none"
-       id="Coord-Letras"
+       id="COORDENAÇÃO LETRAS"
        width="151.36505"
        height="74.577667"
        x="1702.5806"
@@ -606,7 +606,7 @@
        inkscape:label="Coordenação Letras" />
     <rect
        style="fill:none"
-       id="Prof-Eco"
+       id="SALA DE PROFESSOR ECONOMIA (3 ANDAR)"
        width="87.559708"
        height="49.166019"
        x="1612.8112"
@@ -620,7 +620,7 @@
      style="fill:none">
     <rect
        style="fill:none"
-       id="310-1"
+       id="310 INFO"
        width="240.30588"
        height="147.49811"
        x="931.11603"
@@ -628,7 +628,7 @@
        inkscape:label="Sala 310" />
     <rect
        style="fill:none"
-       id="Proje"
+       id="PROJETOS/TRANSPORTES"
        width="85.523148"
        height="72.403732"
        x="932.53632"
@@ -636,7 +636,7 @@
        inkscape:label="Proje" />
     <rect
        style="fill:none"
-       id="LogiProje"
+       id="COORDENADORIA DE LOGISTICA PROJETOS/TRANSPORTES"
        width="149.43153"
        height="72.644196"
        x="1021.9903"
@@ -644,7 +644,7 @@
        inkscape:label="LogiProje" />
     <rect
        style="fill:none"
-       id="Mate"
+       id="MATERIAIS"
        width="85.626236"
        height="72.64418"
        x="785.96576"
@@ -652,7 +652,7 @@
        inkscape:label="Mate" />
     <rect
        style="fill:none"
-       id="LogiMate"
+       id="COORDENADORA DE LOGISTICA DE MATERIAIS"
        width="149.70779"
        height="72.782303"
        x="632.11481"
@@ -660,7 +660,7 @@
        inkscape:label="LogiMate" />
     <rect
        style="fill:none"
-       id="309-I"
+       id="309 INFO"
        width="240.30582"
        height="148.32669"
        x="632.25293"
@@ -668,7 +668,7 @@
        inkscape:label="Sala 309" />
     <rect
        style="fill:none"
-       id="307-I"
+       id="307 INFO (SALA DE PROFESSOR MATEMÁTICA)"
        width="140.59271"
        height="81.483009"
        x="732.24225"
@@ -676,7 +676,7 @@
        inkscape:label="Sala 307" />
     <rect
        style="fill:none"
-       id="305-I"
+       id="305 INFO"
        width="141.42133"
        height="82.311646"
        x="731.68982"
@@ -685,7 +685,7 @@
        inkscape:label="Sala 305" />
     <rect
        style="fill:none"
-       id="303-I"
+       id="303 INFO"
        width="138.93544"
        height="195.283"
        x="732.51843"
@@ -694,7 +694,7 @@
        inkscape:label="Sala 303" />
     <rect
        style="fill:none"
-       id="301-I"
+       id="301 INFO"
        width="138.93544"
        height="196.11165"
        x="732.51843"
@@ -703,7 +703,7 @@
        inkscape:label="Sala 301" />
     <rect
        style="fill:none"
-       id="Copa-I"
+       id="COPA 3 ANDAR INFO"
        width="44.470387"
        height="67.672325"
        x="826.98346"
@@ -712,7 +712,7 @@
        inkscape:label="Copa" />
     <rect
        style="fill:none"
-       id="Rack-I"
+       id="RACK 3 ANDAR INFO"
        width="44.746601"
        height="31.212135"
        x="931.66846"
@@ -721,7 +721,7 @@
        inkscape:label="Rack" />
     <rect
        style="fill:none"
-       id="Prof_Mat"
+       id="308 INFO (SALA DE PROFESSOR MATEMÁTICA)"
        width="141.01562"
        height="81.054688"
        x="930.85938"
@@ -730,7 +730,7 @@
        inkscape:label="Sala 308" />
     <rect
        style="fill:none"
-       id="Lab_Info"
+       id="309 INFO (LABORATÓRIO DE INFORMÁTICA CIÊNCIA DA COMPUTAÇÃO)"
        width="140.03906"
        height="82.226562"
        x="931.44531"
@@ -739,7 +739,7 @@
        inkscape:label="Sala 306" />
     <rect
        style="fill:none"
-       id="304-I"
+       id="304 INFO"
        width="139.45312"
        height="196.09375"
        x="932.42188"
@@ -748,7 +748,7 @@
        inkscape:label="Sala 304" />
     <rect
        style="fill:none"
-       id="302-I"
+       id="302 INFO"
        width="139.76407"
        height="195.55922"
        x="931.94464"
@@ -757,12 +757,12 @@
     <path
        style="fill:none"
        d="m 732.17317,1257.1861 h 91.08143 v 71.6775 h 48.22978 v 39.1052 H 732.22656 v -110.7422"
-       id="Banheiro-Feminino-I"
+       id="BANHEIRO FEMININO 3 ANDAR INFO"
        inkscape:label="BanFem" />
     <path
        style="fill:none"
        d="m 980.55823,1256.2194 h 91.70287 v 111.8665 H 932.77328 v -45.8515 h 47.78495 v -3.3145 h -48.06116 v -27.6214 h 48.06116 v -35.0791"
-       id="Banheiro-Masculino-I"
+       id="BANHEIRO MASCULINO 3 ANDAR INFO"
        inkscape:label="BanMas" />
   </g>
   <g

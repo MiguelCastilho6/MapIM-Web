@@ -87,28 +87,3 @@ export default class Tree {
     }
   }
 }
-
-//export class Tree {}
-
-// Exemplo de uso:
-//const tree = new Tree();
-/* tree.insert('A'); // Inserindo a raiz
-  tree.insert('B', 'A');
-  tree.insert('C', 'A');
-  tree.insert('D', 'B');
-  tree.insert('E', 'B');
-  tree.insert('F', 'C');
-  
-  console.log('Busca por B:', tree.search('B')); // true
-  console.log('Busca por G:', tree.search('G')); // false
-  
-  console.log('Imprimindo a árvore:');
-  tree.print();
-  
-  const path = tree.searchPath('E');
-  if (path) {
-    console.log('Caminho para E:', path.join(' -> '));
-  } else {
-    console.log('E não encontrado na árvore.');
-  }
-   */
