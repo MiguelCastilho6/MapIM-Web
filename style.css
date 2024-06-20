@@ -18,6 +18,9 @@ html{
     align-items: center;
     
 }
+body{
+    display: flex;
+}
 
 .box{
     width: 300px;
@@ -34,10 +37,27 @@ html{
     filter: drop-shadow(-1px 5px 4px rgba(37, 37, 37, 0.267));
 }
 .ui-autocomplete {
+    margin-left: 10px;
+    width: 200px;
     max-height: 150px; /* Defina a altura máxima da lista */
     overflow-y: auto; /* Permite a rolagem vertical */
     overflow-x: hidden; /* Esconde a rolagem horizontal */
     z-index: 1000; /* Certifique-se de que a lista apareça acima de outros elementos */
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 4px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar a lista */
+    padding: 0; /* Remove o preenchimento padrão */
+    margin: 0; /* Remove a margem padrão */
+}
+.ui-menu-item {
+    padding: 10px; /* Espaçamento interno dos itens */
+    cursor: pointer; /* Cursor de mão para indicar que é clicável */
+    border-bottom: 1px solid #ddd; /* Linha divisória entre os itens */
+}
+.ui-state-active {
+    background-color: #007bff !important; /* Cor de fundo do item ativo */
+    color: #fff !important; /* Cor do texto do item ativo */
+    font-weight: bold; /* Texto em negrito para o item ativo */
 }
 
 .submit{
@@ -93,7 +113,7 @@ form{
     background-color: #F5F5F5;
 }
 .navegar{
-    margin-top: 30px;
+    margin-top: 100px;
     margin-bottom: 50px;
     background-color: #416AB5;
 
@@ -110,5 +130,15 @@ form{
 
 .navegar:hover{
     cursor: pointer;
-    filter: drop-shadow(0px 2px 4px rgba(37, 37, 37, 0.267));
+    box-shadow: 0px 0px 4px 5px #33538a65 inset;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 5px; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: small;
 }

@@ -1,43 +1,40 @@
-const draggable = document.getElementById('draggable');
-let isDragging = false;
-let startX, startY, initialMouseX, initialMouseY;
-let scale = 1;
-let currentTransform = {
-    x: 0,
-    y: 0,
-    scale: 1
-};
-draggable.addEventListener('mousedown', (e) => {
-    isDragging = true;
-    startX = draggable.offsetLeft;
-    startY = draggable.offsetTop;
-    initialMouseX = e.clientX;
-    initialMouseY = e.clientY;
-    draggable.style.cursor = 'grabbing';
-});
+document.addEventListener('DOMContentLoaded', () => {
+    const draggable = document.getElementById('draggable');
+    let isDragging = false;
+    let startX, startY, initialMouseX, initialMouseY;
+    let scale = 1;
 
-document.addEventListener('mousemove', (e) => {
-    if (isDragging) {
-        const dx = e.clientX - initialMouseX;
-        const dy = e.clientY - initialMouseY;
-        draggable.style.left = `${startX + dx}px`;
-        draggable.style.top = `${startY + dy}px`;
-    }
-});
+    draggable.addEventListener('mousedown', (e) => {
+        isDragging = true;
+        startX = draggable.offsetLeft;
+        startY = draggable.offsetTop;
+        initialMouseX = e.clientX;
+        initialMouseY = e.clientY;
+        draggable.style.cursor = 'grabbing';
+    });
 
-document.addEventListener('mouseup', () => {
-    isDragging = false;
-    draggable.style.cursor = 'grab';
-});
+    document.addEventListener('mousemove', (e) => {
+        if (isDragging) {
+            const dx = e.clientX - initialMouseX;
+            const dy = e.clientY - initialMouseY;
+            draggable.style.left = `${startX + dx}px`;
+            draggable.style.top = `${startY + dy}px`;
+        }
+    });
 
-document.addEventListener('wheel', (e) => {
-    e.preventDefault();
-    const zoomIntensity = 0.005;
-    scale += e.deltaY * -zoomIntensity;
-    scale = Math.min(Math.max(.125, scale), 10);
-    draggable.style.transform = `scale(${scale})`;
-});
+    document.addEventListener('mouseup', () => {
+        isDragging = false;
+        draggable.style.cursor = 'grab';
+    });
 
+    document.addEventListener('wheel', (e) => {
+        e.preventDefault();
+        const zoomIntensity = 0.005;
+        scale += e.deltaY * -zoomIntensity;
+        scale = Math.min(Math.max(1.5, scale), 20);
+        draggable.style.transform = `scale(${scale})`;
+    });
+});
 function applyTransform() {
     draggable.style.transform = `translate(${currentTransform.x}px, ${currentTransform.y}px) scale(${currentTransform.scale})`;
 }

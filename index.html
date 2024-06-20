@@ -15,12 +15,15 @@
     <div class="box">
         <img class="logo" src="img/ufrrj-logo.png" alt="">
         <form id="form" action="mapa.html">
-            <input class="search" id="search" type="text" name="search" placeholder="Sala de aula, professor...">
+            <input class="search" id="search" type="text" name="search" placeholder="Sala de aula, departamento...">
             <button type="submit" id="submit-button" class="submit"><img class="lupa" src="img/lupa.png" alt=""></button>
         </form>
         <a href="mapa2.html">
             <button class="navegar" type="button">Navegar pelo Mapa</button>
         </a>
+    </div>
+    <div class="footer">
+        Desenvolvido com &#128151; por PN
     </div>
 </body>
 
@@ -33,739 +36,1004 @@
     const completes = [
     {
             "id": "SALA DE PROFESSOR HISTÓRIA (3 ANDAR)",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Multimidia"
         },
         {
             "id": "SALA DE PROFESSOR ECONOMIA (3 ANDAR)",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Multimidia"
         },
         {
             "id": "DEPARTAMENTO LETRAS",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Multimidia"
         },
         {
             "id": "COORDENAÇÃO LETRAS",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Multimidia"
         },
         {
             "id": "310 MULTI",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Multimidia"
         },
         {
             "id": "309 MULTI",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Multimidia"
         },
         {
-            "id": "308 MULTI (SALA DE PROFESSOR ADMINISTRAÇÃ0)",
-            "andar": 3
+            "id": "308 MULTI (SALA DE PROFESSOR ADMINISTRAÇÃO)",
+            "andar": 3,
+            "bloco" : "Multimidia"
         },
         {
             "id": "308 INFO (SALA DE PROFESSOR MATEMÁTICA)",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Informática"
         },
         {
-            "id": "307 MULTI (SALA DE PROFESSOR ADMINISTRAÇÃ0)",
-            "andar": 3
+            "id": "307 MULTI (SALA DE PROFESSOR ADMINISTRAÇÃO)",
+            "andar": 3,
+            "bloco" : "Multimidia"
         },
         {
-            "id": "306 MULTI (SALA DE PROFESSOR ADMINISTRAÇÃ0)",
-            "andar": 3
+            "id": "306 MULTI (SALA DE PROFESSOR ADMINISTRAÇÃO)",
+            "andar": 3,
+            "bloco" : "Multimidia"
         },
         {
-            "id": "305 MULTI (SALA DE PROFESSOR ADMINISTRAÇÃ0)",
-            "andar": 3
+            "id": "305 MULTI (SALA DE PROFESSOR ADMINISTRAÇÃO)",
+            "andar": 3,
+            "bloco" : "Multimidia"
         },
         {
             "id": "304 MULTI",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Multimidia"
         },
         {
             "id": "303 MULTI",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Multimidia"
         },
         {
             "id": "302 MULTI",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Multimidia"
         },
         {
             "id": "301 MULTI",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Multimidia"
         },
         {
             "id": "BANHEIRO MASCULINO 3 ANDAR MULTI",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Multimidia"
         },
         {
             "id": "BANHEIRO FEMININO 3 ANDAR MULTI",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Multimidia"
         },
         {
             "id": "308 BIBLI (SALA DE PROFESSOR PEDAGOGIA)",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "307 BIBLI (SALA DE PROFESSOR PEDAGOGIA)",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "306 BIBLI (SALA DE PROFESSOR PEDAGOGIA)",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "305 BIBLI (SALA DE PROFESSOR PEDAGOGIA)",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "304 BIBLI",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "303 BIBLI",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "302 BIBLI",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "301 BIBLI",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "BANHEIRO MASCULINO 3 ANDAR BIBLI",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "BANHEIRO FEMININO 3 ANDAR BIBLI",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "PROAD",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Administração",
         },
         {
             "id": "GABINETE DIRETOR E VICE-DIRETOR A",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Administração",
         },
         {
             "id": "GABINETE DIRETOR E VICE-DIRETOR B",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Administração",
         },
         {
             "id": "DIREÇÃO DO IM ARQUIVO E PROTOCOLO",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Administração",
         },
         {
             "id": "SPEAS",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Administração",
         },
         {
             "id": "SAC",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Administração",
         },
         {
             "id": "PROAES",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Administração",
+        },
+        {
+            "id": "311 ADM",
+            "andar": 3,
+            "bloco": "Administração"
+        },
+        {
+            "id": "BANHEIRO MASCULINO 3 ANDAR ADM",
+            "andar": 3,
+            "bloco": "Administração"
+        },
+        {
+            "id": "BANHEIRO FEMININO 3 ANDAR ADM",
+            "andar": 3,
+            "bloco": "Administração",
         },
         {
             "id": "308 ADM (SALA DE PROFESSOR TURISMO)",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Administração",
         },
         {
             "id": "307 ADM (SALA DE PROFESSOR TURISMO)",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Administração",
         },
         {
             "id": "306 ADM (SALA DE PROFESSOR TURISMO)",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Administração",
         },
         {
             "id": "305 ADM",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Administração",
         },
         {
             "id": "304 ADM",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Administração",
         },
         {
             "id": "303 ADM",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Administração",
         },
         {
             "id": "302 ADM",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Administração",
         },
         {
             "id": "301 ADM",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Administração",
         },
         {
             "id": "BANHEIRO MASCULINO 3 ANDAR BIBLI",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "BANHEIRO FEMININO 3 ANDAR BIBLI",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "INFORMÁTICA",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Informática",
         },
         {
             "id": "COORDENADORIA DE LOGISTICA PROJETOS/TRANSPORTES",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Informática"
         },
         {
             "id": "PROJETOS/TRANSPORTES",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Informática",
         },
         {
             "id": "COORDENADORA DE LOGISTICA DE MATERIAIS",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Informática",
         },
         {
             "id": "MATERIAIS",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Informática",
         },
         {
             "id": "310 INFO",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Informática",
         },
         {
             "id": "309 INFO (LABORATÓRIO DE INFORMÁTICA CIÊNCIA DA COMPUTAÇÃO)",
-            "andar": 3
-        },
-        {
-            "id": "308 INFO",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Informática",
         },
         {
             "id": "307 INFO (SALA DE PROFESSOR MATEMÁTICA)",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Informática",
         },
         {
-            "id": "306 INFO",
-            "andar": 3
+            "id": "306 INFO (LABORATÓRIO DE INFORMÁTICA CIÊNCIA DA COMPUTAÇÃO)",
+            "andar": 3,
+            "bloco": "Informática",
         },
         {
-            "id": "305 INFO",
-            "andar": 3
+            "id": "305 INFO (COORDENADORIA DE LOGISTICA)",
+            "andar": 3,
+            "bloco": "Informática",
         },
         {
             "id": "304 INFO",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Informática",
         },
         {
             "id": "303 INFO",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Informática",
         },
         {
             "id": "302 INFO",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Informática",
         },
         {
             "id": "301 INFO",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Informática",
         },
         {
             "id": "BANHEIRO MASCULINO 3 ANDAR INFO",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Informática",
         },
         {
             "id": "BIBLIOTECA ESTANTERIA LIVROS A",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "BIBLIOTECA ESTANTERIA LIVROS B",
-            "andar": 3
+            "andar": 3,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "BANHEIRO FEMININO 3 ANDAR INFO",
-            "andar": 3
+            "andar": 3,
+            "bloco": "Informática",
         },
         {
             "id": "REPRESENTAÇÃO PROGRAD",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Multimidia"
         },
         {
             "id": "SALA DE PROFESSOR COMPUTAÇÃO A (2 ANDAR)",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Multimidia"
         },
         {
             "id": "SALA DE PROFESSOR COMPUTAÇÃO B (2 ANDAR)",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Multimidia"
         },
         {
             "id": "PIBID",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Multimidia"
         },
         {
             "id": "209 MULTI",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Multimidia"
         },
         {
             "id": "203 MULTI",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Multimidia"
         },
         {
             "id": "204 MULTI",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Multimidia"
         },
         {
             "id": "201 MULTI",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Multimidia"
         },
         {
             "id": "202 MULTI",
-            "andar": 2
-        },
-        {
-            "id": "BANHEIRO 2 ANDAR NEUTRO",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Multimidia"
         },
         {
             "id": "BANHEIRO MASCULINO 2 ANDAR MULTI",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Multimidia"
         },
         {
             "id": "207 MULTI",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Multimidia"
         },
         {
             "id": "208 MULTI (SALA DE PROFESSOR LETRAS)",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Multimidia"
         },
         {
             "id": "205 MULTI (SALA DE PROFESSOR COMPUTAÇÃO)",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Multimidia"
         },
         {
             "id": "206 MULTI (SALA DE PROFESSOR LETRAS)",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Multimidia"
         },
         {
             "id": "COPA 2 ANDAR MULTI",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Multimidia"
         },
         {
             "id": "RACK 2 ANDAR MULTI",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Multimidia"
         },
         {
             "id": "COTIC A",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Informática"
         },
         {
             "id": "COTIC SECRETARIA",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Informática"
         },
         {
             "id": "COTIC B",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Informática"
         },
         {
             "id": "COTIC C",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Informática"
+        },
+        {
+            "id": "210 MULTI",
+            "andar": 2,
+            "bloco" : "Multimidia"
+        },
+        {
+            "id": "BANHEIRO 2 ANDAR NEUTRO",
+            "andar": 2,
+            "bloco" : "Multimidia"
         },
         {
             "id": "LABORATÓRIO DE GEOPROCESSAMENTO E TECNOLOGIAS DA EDUCAÇÃO",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Informática"
         },
         {
             "id": "LABORATÓRIO DE INFORMÁTICA DTL",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Informática"
         },
         {
             "id": "207 INFO (SALA DE PROFESSOR ECONOMIA)",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Informática"
         },
         {
             "id": "205 INFO (SALA DE PROFESSOR ECONOMIA)",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Informática"
         },
         {
             "id": "206 INFO (SALA DE PROFESSOR ECONOMIA)",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Informática"
         },
         {
             "id": "208 INFO (SALA DE PROFESSOR CIÊNCIAS SOCIAIS)",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Informática"
         },
         {
             "id": "203 INFO",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Informática"
         },
         {
             "id": "201 INFO",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Informática"
         },
         {
             "id": "204 INFO",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Informática"
         },
         {
             "id": "202 INFO",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Informática"
         },
         {
             "id": "BANHEIRO FEMININO 2 ANDAR INFO",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Informática"
         },
         {
             "id": "BANHEIRO MASCULINO 2 ANDAR INFO",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Informática"
         },
         {
             "id": "COPA 2 ANDAR INFO",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Informática"
         },
         {
             "id": "RACK 2 ANDAR INFO",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Informática"
         },
         {
             "id": "BANHEIRO FEMININO 2 ANDAR BIBLI",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "BANHEIRO MASCULINO 2 ANDAR BIBLI",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "202 BIBLI",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "201 BIBLI",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "204 BIBLI",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "203 BIBLI",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "206 BIBLI (SALA DE PROFESSOR PEDAGOGIA)",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "208 BIBLI (SALA DE PROFESSOR PEDAGOGIA)",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "205 BIBLI (SALA DE PROFESSOR PEDAGOGIA)",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "207 BIBLI (SALA DE PROFESSOR PEDAGOGIA)",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "BIBLIOTECA RECEPÇÃO",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "BIBLIOTECA SALA DE ESTUDOS",
-            "andar": 2
+            "andar": 2,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "BANHEIRO FEMININO 2 ANDAR ADM",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Administração"
         },
         {
             "id": "BANHEIRO MASCULINO 2 ANDAR ADM",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Administração"
         },
         {
             "id": "202 ADM",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Administração"
         },
         {
             "id": "204 ADM",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Administração"
         },
         {
             "id": "201 ADM",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Administração"
         },
         {
             "id": "203 ADM",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Administração"
         },
         {
             "id": "PETGEO",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Administração"
         },
         {
             "id": "206 ADM (SALA DE PROFESSOR HISTÓRIA)",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Administração"
         },
         {
             "id": "208 ADM (SALA DE PROFESSOR HISTÓRIA)",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Administração"
         },
         {
             "id": "207 ADM (SALA DE PROFESSOR HISTÓRIA)",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Administração"
         },
         {
             "id": "COORDENAÇÃO PEDAGOGIA",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Administração"
         },
         {
             "id": "COORDENAÇÃO HISTÓRIA",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Administração"
         },
         {
             "id": "DHE/DPCE SECRETARIA",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Administração"
         },
         {
             "id": "DPCE COORDENAÇÃO ECONOMIA",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Administração"
         },
         {
             "id": "CHEFIA DEPARTAMENTO A",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Administração"
         },
         {
             "id": "CHEFIA DEPARTAMENTO B",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Administração"
         },
         {
             "id": "DES/DEGEO SECRETARIA",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Administração"
         },
         {
             "id": "DEGEO COORDENAÇÃO GEOGRAFIA",
-            "andar": 2
+            "andar": 2,
+            "bloco": "Administração"
         },
         {
             "id": "SALA DE AULA 1 ANDAR INFO",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Informática"
         },
         {
             "id": "LABORATÓRIO AUDIOVISUAL",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Informática"
         },
         {
             "id": "SALA DE TELECOMUNICAÇÕES",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Informática"
         },
         {
             "id": "ESTÚDIO DE SOM",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Informática"
         },
         {
             "id": "DEPÓSITO INFO",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Informática"
         },
         {
             "id": "COZINHA EXPERIMENTAL",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Informática"
         },
         {
             "id": "EVENTOS",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Informática"
         },
         {
             "id": "SALÃO",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Informática"
         },
         {
             "id": "103 INFO",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Informática"
         },
         {
             "id": "104 INFO",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Informática"
         },
         {
             "id": "102 INFO",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Informática"
         },
         {
             "id": "101 INFO",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Informática"
         },
         {
             "id": "BANHEIRO FEMININO 1 ANDAR INFO",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Informática"
         },
         {
             "id": "BANHEIRO MASCULINO 1 ANDAR INFO",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Informática"
         },
         {
             "id": "RACK 1 ANDAR INFO",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Informática"
         },
         {
             "id": "COPA 1 ANDAR INFO",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Informática"
         },
         {
             "id": "ALMOXARIFADO",
-            "andar": 1
+            "andar": 1,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "DESPENSA",
-            "andar": 1
+            "andar": 1,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "VESTIÁRIO",
-            "andar": 1
+            "andar": 1,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "COZINHA",
-            "andar": 1
+            "andar": 1,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "REFEITÓRIO",
-            "andar": 1
+            "andar": 1,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "DEPÓSITO BIBLI",
-            "andar": 1
+            "andar": 1,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "HALL BIBLI",
-            "andar": 1
+            "andar": 1,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "COPA 1 ANDAR BIBLI",
-            "andar": 1
+            "andar": 1,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "LABORATÓRIO MULTIDISCIPLINAR/LIFE",
-            "andar": 1
+            "andar": 1,
+            "bloco" : "Biblioteca"
         },
         {
-            "id": "BIBLIOTECA AQUISIÇÃO/TRATAMENTO TÉCNCICO",
-            "andar": 1
+            "id": "BIBLIOTECA AQUISIÇÃO/TRATAMENTO TÉCNICO",
+            "andar": 1,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "ADMINISTRAÇÃO BIBLIOTECA",
-            "andar": 1
+            "andar": 1,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "SALA DE REUNIÃO",
-            "andar": 1
+            "andar": 1,
+            "bloco" : "Biblioteca"
         },
         {
             "id": "VESTIÁRIO ADM A",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Administração"
         },
         {
             "id": "VESTIÁRIO ADM B",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Administração"
         },
         {
             "id": "MANUTENÇÃO",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Administração"
         },
         {
             "id": "CENTROS ACADÊMICOS",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Administração"
         },
         {
             "id": "SALA DE PROFESSOR MATEMÁTICA A (1 ANDAR)",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Administração"
         },
         {
             "id": "SALA DE PROFESSOR MATEMÁTICA B (1 ANDAR)",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Administração"
         },
         {
             "id": "MULTIPROGRAMAS",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Administração"
         },
         {
             "id": "HALL ADM",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Administração"
         },
         {
             "id": "CHEFIA DTL",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Administração"
         },
         {
             "id": "COORDENAÇÃO MATEMÁTICA",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Administração"
         },
         {
             "id": "DCC COORDENAÇÃO COMPUTAÇÃO",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Administração"
         },
         {
             "id": "DTL/DCC SECRETARIA",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Administração"
         },
         {
             "id": "COORDENAÇÃO ADMINISTRAÇÃO",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Administração"
         },
         {
             "id": "COORDENAÇÃO TURISMO",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Administração"
         },
         {
             "id": "CHEFIA DEPARTAMENTO",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Administração"
         },
         {
             "id": "DAT SECRETARIA",
-            "andar": 1
+            "andar": 1,
+            "bloco": "Administração"
         },
         {
             "id": "AUDITÓRIO 1 ANDAR",
-            "andar": 1
+            "andar": 1,
+            "bloco" : "Multimidia"
         },
         {
             "id": "HALL MULTI",
-            "andar": 1
+            "andar": 1,
+            "bloco" : "Multimidia"
         },
         {
             "id": "SECRETARIA DCJUR",
-            "andar": 1
+            "andar": 1,
+            "bloco" : "Multimidia"
         },
         {
             "id": "CHEFIA/COORD. DCJUR",
-            "andar": 1
+            "andar": 1,
+            "bloco" : "Multimidia"
         },
         {
             "id": "BANHEIRO FEMININO 1 ANDAR MULTI",
-            "andar": 1
+            "andar": 1,
+            "bloco" : "Multimidia"
         },
         {
             "id": "BANHEIRO MASCULINO 1 ANDAR MULTI",
-            "andar": 1
+            "andar": 1,
+            "bloco" : "Multimidia"
         },
         {
             "id": "COPIADORA",
-            "andar": 1
+            "andar": 1,
+            "bloco" : "Multimidia"
         },
         {
             "id": "NPJ ATENDIMENTO",
-            "andar": 1
+            "andar": 1,
+            "bloco" : "Multimidia"
         },
         {
             "id": "SALA DE PROFESSOR DIREITO (1 ANDAR)",
-            "andar": 1
+            "andar": 1,
+            "bloco" : "Multimidia"
         },
         {
-            "id": "",
-            "andar": 1
+            "id": "BANHEIRO MASCULINO PÓS",
+            "andar": 4,
+            "bloco": "Pós-Graduação"
         },
         {
-            "id": "",
-            "andar": 1
+            "id": "BANHEIRO FEMININO PÓS",
+            "andar": 4,
+            "bloco": "Pós-Graduação"
         },
         {
-            "id": "",
-            "andar": 1
+            "id": "DML",
+            "andar": 4,
+            "bloco": "Pós-Graduação"
+        },
+        {
+            "id": "SALA DE REDES",
+            "andar": 4,
+            "bloco": "Pós-Graduação"
+        },
+        {
+            "id": "COPA PÓS",
+            "andar": 4,
+            "bloco": "Pós-Graduação"
+        },
+        {
+            "id": "105 PÓS",
+            "andar": 4,
+            "bloco": "Pós-Graduação"
+        },
+        {
+            "id": "103 PÓS",
+            "andar": 4,
+            "bloco": "Pós-Graduação"
+        },
+        {
+            "id": "BANHEIRO PNE PÓS",
+            "andar": 4,
+            "bloco": "Pós-Graduação"
+        }
+        ,
+        {
+            "id": "AUDITÓRIO PÓS",
+            "andar": 4,
+            "bloco": "Pós-Graduação"
+        }
+        ,
+        {
+            "id": "107 PÓS (SALA DE DEFESA)",
+            "andar": 4,
+            "bloco": "Pós-Graduação"
+        }
+        ,
+        {
+            "id": "MULTIPROGRAMAS PÓS",
+            "andar": 4,
+            "bloco": "Pós-Graduação"
+        },
+        {
+            "id": "104 PÓS",
+            "andar": 4,
+            "bloco": "Pós-Graduação"
+        }
+        ,
+        {
+            "id": "106 PÓS",
+            "andar": 4,
+            "bloco": "Pós-Graduação"
+        }
+        ,
+        {
+            "id": "110 PÓS",
+            "andar": 4,
+            "bloco": "Pós-Graduação"
+        }
+        ,
+        {
+            "id": "SECRETARIA/COORDENAÇÃO PÓS",
+            "andar": 4,
+            "bloco": "Pós-Graduação"
         }
 
     ]
@@ -780,9 +1048,10 @@
             return
         }
 
-        window.location.href = `mapa.html?sala=${sala.id}&andar=${sala.andar}`;
-    })
+        window.location.href = `mapa.html?sala=${sala.id}&andar=${sala.andar}&bloco=${sala.bloco}`;
 
+    })
+//DESCULPA LUIZ, SEU CÓDIGO FICOU MANEIRO SIM. PARABÉNS!!
     $("#search").autocomplete({
         source: completes.map(sala => sala.id)
     })

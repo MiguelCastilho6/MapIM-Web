@@ -5,59 +5,122 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style4.css">
-
-    <script>
-        const urlParams = new URLSearchParams(window.location.search)
-
-        const sala = urlParams.get('sala') ?? '101-A'
-        const andar = urlParams.get('andar') ?? 1
-
-        fetch('img/' + andar + '-andar.svg')
-            .then((response) => response.text())
-            .then((data) => {
-                const parser = new DOMParser();
-                const svgContainer = document.getElementById('svg-container')
-                const svg = parser.parseFromString(data, "image/svg+xml").querySelector('svg');
-                svgContainer.appendChild(svg)
-
-                const salaElement = document.getElementById(sala)
-
-                if (!salaElement) {
-                    alert('Não existe')
-                    return;
-                }
-
-                salaElement.style.fill = 'green';
-            })
-    </script>
-   
-    
-
     <title>Mapa</title>
 </head>
 
 <body>
+    <div class="header">
+        <h1 id="caminho"></h1>
+    </div>
     <div class="mapdiv" id="container">
         <div id="draggable">
-    <div id="svg-container" >        
+            <div id="svg-container"></div>
+        </div>
     </div>
-</div>
 
-<script>
-    const imagens = document.querySelectorAll('.andar img');
-imagens.forEach(img => {
-    img.addEventListener('dragstart', (event) => {
-        event.preventDefault(); // Impede o comportamento padrão do navegador ao arrastar a imagem
-    });
-});
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
 
-// Adicione um listener de eventos de dragover ao contêiner de imagens para evitar o comportamento padrão de arrasto e soltar do navegador
-const containerImagens = document.getElementById('draggable');
-containerImagens.addEventListener('dragover', (event) => {
-    event.preventDefault(); // Impede o comportamento padrão do navegador ao arrastar sobre o contêiner
-});    
+        const sala = urlParams.get('sala') ?? '101-A';
+        const andar = urlParams.get('andar') ?? 1;
+        const bloco = urlParams.get('bloco') ?? 'Administração';
+
+        fetch('img/' + andar + '-andar.svg')
+            .then(response => response.text())
+            .then(data => {
+                const parser = new DOMParser();
+                const svgContainer = document.getElementById('svg-container');
+                const svg = parser.parseFromString(data, "image/svg+xml").querySelector('svg');
+                svgContainer.appendChild(svg);
+
+                const salaElement = document.getElementById(sala);
+
+                if (!salaElement) {
+                    alert('Não existe');
+                    return;
+                }
+
+                salaElement.style.fill = '#52a447';
+            });
+
+        const h1Element = document.getElementById('caminho');
+        if(andar == 1){
+            h1Element.textContent = `Fique no 1º andar e vá para o bloco ${bloco}, onde você irá achar a sala ${sala} no local destacado abaixo`;
+        }
+        if(andar == 2 || andar == 3){
+            h1Element.textContent = `Vá para o ${andar}º andar, depois para o bloco ${bloco}, onde você irá achar a sala ${sala} no local destacado abaixo`;
+        }
+        if(andar == 4){
+            h1Element.textContent = `Vá para o prédio da pós e você irá achar a sala ${sala} no local destacado abaixo`;
+        }
+        if (sala.includes("SALA")){
+            h1Element.textContent = `Vá para o ${andar}º andar no bloco ${bloco}, onde você irá achar a ${sala} no local destacado abaixo`;
+        }        
+       
+
     </script>
-    <script src="index.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const draggable = document.getElementById('draggable');
+            let isDragging = false;
+            let startX, startY, initialMouseX, initialMouseY;
+            let scale = 1;
+
+            draggable.addEventListener('mousedown', (e) => {
+                isDragging = true;
+                startX = draggable.offsetLeft;
+                startY = draggable.offsetTop;
+                initialMouseX = e.clientX;
+                initialMouseY = e.clientY;
+                draggable.style.cursor = 'grabbing';
+            });
+
+            document.addEventListener('mousemove', (e) => {
+                if (isDragging) {
+                    const dx = e.clientX - initialMouseX;
+                    const dy = e.clientY - initialMouseY;
+                    draggable.style.left = `${startX + dx}px`;
+                    draggable.style.top = `${startY + dy}px`;
+                }
+            });
+
+            document.addEventListener('mouseup', () => {
+                isDragging = false;
+                draggable.style.cursor = 'grab';
+            });
+
+            document.addEventListener('wheel', (e) => {
+                e.preventDefault();
+                const zoomIntensity = 0.005;
+                scale += e.deltaY * -zoomIntensity;
+                scale = Math.min(Math.max(0.5, scale), 10);
+                draggable.style.transform = `scale(${scale})`;
+            });
+
+            const imagens = document.querySelectorAll('.andar img');
+            imagens.forEach(img => {
+                img.addEventListener('dragstart', (event) => {
+                    event.preventDefault();
+                });
+            });
+
+            const containerImagens = document.getElementById('draggable');
+            containerImagens.addEventListener('dragover', (event) => {
+                event.preventDefault();
+            });
+        });
+    </script>
+    <script>
+          document.addEventListener('DOMContentLoaded', () => {
+           
+            const novoConteudo = "Novo Conteúdo";
+            
+            // Substituir o conteúdo da div
+            const divElement = document.getElementById('conteudo');
+            divElement.textContent = novoConteudo;
+        });
+    </script>
 </body>
 
 </html>

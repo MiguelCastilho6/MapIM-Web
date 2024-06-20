@@ -3,27 +3,34 @@ html, body {
     width: 100%;
     margin: 0;
     overflow: hidden;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
-    background-color: #f0f0f0; 
- }
-.header {
+    background-color: #f0f0f0;
+
+}
+#caminho{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    -webkit-text-fill-color: #f0f0f0;
+
+}
+.header{
     width: 100%;
     height: 7%;
-    background-color: blue;
+    background-color: #33538a;
     position: absolute;
     top: 0;
     left: 0;
     display: flex;
-    align-items: center;
     justify-content: center;
-
+    align-content: center;
+    align-items: center;
 }
-
-
 .mapdiv {
-    margin-top: 5%;
+    margin-top: 7%;
+    margin-left: 8%;
+    margin-right:10%;
     width: 80%;
     height: 85%;
     background-color: #ffffff;
@@ -34,8 +41,11 @@ html, body {
     padding: 20px;
     border-radius: 10px;
     position: relative;
-    overflow: hidden;   
+    overflow: hidden;
+    z-index: 0; /* Para posicionar abaixo do header */
 }
+
+
 
 #draggable {
     height: 100%;
@@ -46,35 +56,27 @@ html, body {
     cursor: grab;
     user-select: none;
     transform-origin: center center;
-    position: relative;
+    position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
-.andar {
+
+#svg-container{
+    width: 100%;
+    height: 100%;
+}
+
+svg{
+    Width: 560px;/* Defina a largura desejada */
+    height: 480px; /* Defina a altura desejada */
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
+    padding-top: 50px;
+    top: 50%; /* Ajuste a posição superior para centralizar verticalmente */
+    left: 50%; /* Ajuste a posição esquerda para centralizar horizontalmente */
+    transform: translate(-50%, -50%); /* Centralize o elemento */
 }
-
-.andar img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-     /* width: 560px;
-     height: 480px;/
-     position: absolute;
-     padding-top: 50px;
-     top: 50%; 
-     left: 50%; 
-     transform: translate(-50%, -50%); 
-} */
 
 
 tspan:hover{

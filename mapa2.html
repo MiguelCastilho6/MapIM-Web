@@ -9,10 +9,12 @@
 </head>
 <body>
     <div class="header">
-        <button id="button-1">1</button>
-        <button id="button-2">2</button>
-        <button id="button-3">3</button>
-        <button id="button-pos">Pós</button>
+        <a href="index.html"><img class="back" src="img/arrow-left-long-solid.svg" alt="" srcset=""></a>
+        <div><button class="button" id="button-1">1</button>
+        <button class="button" id="button-2">2</button>
+        <button class="button" id="button-3">3</button>        
+        <button class="button" id="button-pos">Pós</button></div>
+        <img  id="image" src="img/logosemnome.png" alt="" draggable="false">
     </div>
 
     <div class="mapdiv" id="container">
@@ -27,7 +29,7 @@
                 <img src="img/3-andar.svg" alt="">
             </div>
             <div class="andar" id="pos-andar">
-                <img src="img/POS ANDAR SVG.svg" alt="">
+                <img src="img/4-andar.svg" alt="">
             </div>
         </div>
     </div>
@@ -72,6 +74,19 @@ const containerImagens = document.getElementById('draggable');
 containerImagens.addEventListener('dragover', (event) => {
     event.preventDefault(); // Impede o comportamento padrão do navegador ao arrastar sobre o contêiner
 });
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const buttons = document.querySelectorAll('.button');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                buttons.forEach(btn => btn.classList.remove('selected'));
+                button.classList.add('selected');
+            });
+        });
+    });
+   
 </script>
 </body>
 </html>
