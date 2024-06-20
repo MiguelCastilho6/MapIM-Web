@@ -7,7 +7,7 @@
    width="2480"
    height="3509"
    viewBox="0 0 2480 3509"
-   sodipodi:docname="3 ANDAR SVG.svg"
+   sodipodi:docname="3-andar.svg"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -141,15 +141,15 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
-     inkscape:zoom="0.22627417"
-     inkscape:cx="731.41358"
-     inkscape:cy="1995.3669"
+     inkscape:zoom="1.28"
+     inkscape:cx="869.92188"
+     inkscape:cy="701.95313"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="1358"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer10" />
+     inkscape:current-layer="layer4" />
   <g
      inkscape:groupmode="layer"
      inkscape:label="Image"
@@ -2619,17 +2619,17 @@
     <text
        xml:space="preserve"
        style="font-size:10.6667px;line-height:1.1;fill:#000000;stroke-width:4.188"
-       x="711.09607"
-       y="488.84515"
+       x="704.84607"
+       y="493.53265"
        id="text45"><tspan
          sodipodi:role="line"
          id="tspan45"
-         x="711.09607"
-         y="488.84515"
+         x="704.84607"
+         y="493.53265"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';text-align:center;text-anchor:middle">COORDENADORA  DE</tspan><tspan
          sodipodi:role="line"
-         x="711.09607"
-         y="500.95053"
+         x="704.84607"
+         y="505.66422"
          id="tspan46"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';text-align:center;text-anchor:middle">LOGISTICA DE MATERIAIS</tspan></text>
     <text
@@ -2677,20 +2677,26 @@
          id="tspan53">TRANSPORTES</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:10.6667px;line-height:1.1;fill:#000000;stroke-width:4.188"
-       x="1097.4722"
-       y="492.21506"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;line-height:1.1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:4.188"
+       x="1026.3784"
+       y="481.27756"
        id="text65"><tspan
          sodipodi:role="line"
-         x="1097.4722"
-         y="492.21506"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';text-align:center;text-anchor:middle"
-         id="tspan65">COORDENADORIA DE LOGISTICA</tspan><tspan
+         id="tspan4"
+         x="1026.3784"
+         y="481.27756">   COORDENADORIA </tspan><tspan
          sodipodi:role="line"
-         x="1097.4722"
-         y="504.32043"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';text-align:center;text-anchor:middle"
-         id="tspan66">PROJETOS/TRANSPORTES</tspan></text>
+         id="tspan5"
+         x="1026.3784"
+         y="493.01093">           DE </tspan><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         x="1026.3784"
+         y="504.74429">      LOGISTICA</tspan><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         x="1026.3784"
+         y="516.47766">PROJETOS/TRANSPORTES</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10.6667px;line-height:1.1;fill:#000000;stroke-width:4.188"
@@ -2736,20 +2742,22 @@
          id="tspan71">MATEMÁTICA</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:9.33333px;line-height:1.1;fill:#000000;stroke-width:4.188"
-       x="1002.2661"
-       y="813.6734"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;line-height:1.1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:4.188"
+       x="938.20361"
+       y="806.64215"
        id="text73"><tspan
          sodipodi:role="line"
-         x="1002.2661"
-         y="813.6734"
-         id="tspan72"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';text-align:center;text-anchor:middle">LABORATÓRIO DE INFORMÁTICA</tspan><tspan
+         id="tspan16"
+         x="938.20361"
+         y="806.64215">       LABORATÓRIO </tspan><tspan
          sodipodi:role="line"
-         x="1002.2661"
-         y="824.26556"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.33333px;line-height:1.1;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';text-align:center;text-anchor:middle"
-         id="tspan73">CIÊNCIA DA COMPUTAÇÃO</tspan></text>
+         id="tspan17"
+         x="938.20361"
+         y="816.90881">     DE INFORMÁTICA </tspan><tspan
+         sodipodi:role="line"
+         id="tspan18"
+         x="938.20361"
+         y="827.17548">CIÊNCIA DA COMPUTAÇÃO</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10.6667px;line-height:1.1;fill:#000000;stroke-width:4.188"
